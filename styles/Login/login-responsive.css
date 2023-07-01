@@ -1,0 +1,39 @@
+@media screen and (min-width:670px){
+    .container{
+        margin-top: 5%;
+    }
+
+    #fields__title{
+        font-size: 20px;  
+        margin-bottom: 10px; 
+    }
+
+    .fields__textboxs {
+        height: 130px;
+    }
+
+    .fields__textboxs > input {
+        height: 45px;
+        width: 400px;
+    }
+
+    #btnLogin{
+        padding: 16px;
+        margin-bottom: 4%;
+        width: 50%;
+    }
+
+    #btnLogin > a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    
+
+
+    .fields__recovery {
+        margin-bottom: 10px;
+    }
+
+
+}

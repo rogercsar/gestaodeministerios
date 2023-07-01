@@ -1,0 +1,194 @@
+:root {
+    background-color: white !important;
+}
+
+header.menu{
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+}
+
+.container{
+    margin-top: 150px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px;
+    border: 1px solid white;
+}
+
+.container :not(:first-child){
+    margin-top: 20px;
+}
+
+.photo,
+.sec__escalas,
+.counter__friends,
+.counter__community {
+    width: 60%;
+    height: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+} 
+
+.counter__friends {
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter__community {
+    flex-direction: column;
+    align-items: center;
+    height: 350px !important;
+}
+
+.photo{
+    height: 370px;
+    border-top-right-radius: 80px;
+    align-items: center;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+/*
+.photo > * {
+   border: 1px solid black;
+}
+*/
+
+.photo__avatar > img{
+    border-radius: 15px;
+}
+
+.photo__tools > div > i {
+    margin-right: 15px;
+}
+
+.photo__name > h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#sec__ml{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec__escalas{
+    height: 450px;
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#display__escalas{
+   display: flex;
+   width: 260px;
+  flex-wrap: wrap;
+}
+
+#display__escalas button {
+    width: 85px;
+    height: 40px;
+    padding: 2px;
+    background-color: #647ed1;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 10px;
+    color: white;
+}
+
+#display__repertorio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display__repertorio ul {
+    font-size: 18px;
+    list-style: none;
+}
+
+#display__repertorio ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: #647ed1;
+}
+
+#display__plays {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display__plays ul{
+    list-style: none;
+}
+
+#display__plays a {
+    text-decoration: none;
+    padding: 10px;
+    color: #647ed1;
+}
+
+#display__link ul {
+    list-style: none;
+}
+
+#display__link a {
+    text-decoration: none;
+    padding: 10px;
+    color: #647ed1;
+    text-align: center;
+}
+
+
+.counter__friends,
+.counter__community{
+    height: 230px;
+    width: 400px;
+}
+
+.counter__friends ul {
+    list-style: none;
+}
+
+.counter__friends a {
+    text-decoration: none;
+    padding: 10px;
+    color: #647ed1;
+    text-align: center;
+}
+
+header > nav {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+header > nav > #title > h1 {
+    font-size: 40px;
+}
+
+header > nav > #hamburguer >label {
+    font-size: 40px;
+
+}

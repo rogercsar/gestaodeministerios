@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="styles/Create/create-user.css">
+    <link rel="stylesheet" href="styles/Create/create-responsive.css">
+    <title>Criar usuário</title>
+</head>
+<body>
+    <div class="container">
+        <div class="fields">
+            <div class="fields__title">
+                <p id="field__title__p">Crie sua conta do <span class="gml-font-color">GML</span></p>
+            </div>
+        </div>
+
+        <div class="fields__textboxs">
+             <input type="text" id="field__name" placeholder="Nome Completo">
+             <input type="email" name="" id="field__email" placeholder="E-mail">
+             <input type="text" id="field__cel" placeholder="Número celular com DDD">
+             <input type="password" name="" id="field__pass" placeholder="Senha"> 
+        </div>
+
+           <div class="fields__buttons">
+                <button id="btnCreate" class="gml-button-bg" onclick="createUser()"><a id="linkPag">Criar</a></button>
+            </div>
+
+            <div class="fields__recovery">
+                <a href="./index.html">Cancelar</a>
+            </div>
+
+            <div class="fields__create">
+                <a href="./index.html">Já tem conta ? <span class="gml-font-color">Faça login</span></a>
+            </div>
+           </div>
+    </div>
+
+<script src="./js/create-user.js"></script>    
+</body>
+</html>

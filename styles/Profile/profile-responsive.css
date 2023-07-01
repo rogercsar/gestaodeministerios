@@ -1,0 +1,15 @@
+@media screen and (min-width: 650px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1041px) {
+    #display__escalas{
+        display: flex;
+        width: 350px;
+       flex-wrap: wrap;
+     }
+}

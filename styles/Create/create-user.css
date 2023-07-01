@@ -1,0 +1,105 @@
+
+.container {
+    width: 80%;
+    max-width: 670px;
+    height: 80vh;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 15%; 
+
+    border-radius: 20px;
+    box-shadow: 10px 10px 27px 1px rgba(64,61,61,0.75);
+-webkit-box-shadow: 10px 10px 27px 1px rgba(64,61,61,0.75);
+-moz-box-shadow: 10px 10px 27px 1px rgba(64,61,61,0.75);
+    display: flex;
+    flex-direction: column;
+}
+
+.fields {
+    margin: 6% 10%;
+}
+
+.fields__title{
+    display: flex;
+    justify-content: center;
+}
+
+#field__title__p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(26, 26, 26);    
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+.fields__textboxs{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.fields__textboxs > input{
+    height: 10px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    margin-bottom: 2%;
+}
+
+.fields__remember{
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 50px 0;
+}
+
+.fields__remember > input {
+    margin: 0 8px;
+}
+
+#btnCreate{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.fields__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+#btnCreate > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.fields__recovery > a, .fields__create > a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    font-size: 13px;
+}
+
+.fields__recovery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.fields__create {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 20px;
+}

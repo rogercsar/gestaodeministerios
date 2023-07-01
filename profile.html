@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/Profile/profile.css">
+    <link rel="stylesheet" href="./styles/Profile/profile-responsive.css">
+    <script src="https://kit.fontawesome.com/6486196ee5.js" crossorigin="anonymous"></script>
+    <title>Perfil</title>
+</head>
+<body>
+
+    <header class="menu gml-button-bg">
+        <nav>
+            <div id="title">
+                <h1>GML <span class="gml-font-title">Gestão de Ministério de Louvor</span></h1>
+            </div>
+            <div id="hamburguer">
+                <label for="">&#9776;</label>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <aside class="photo">
+            <div class="photo__avatar">
+                <i class="fa-solid fa-user-tie fa-2xl"></i>
+            </div>
+            <div class="photo__name">
+                <h1 class="gml-font-color">Membro</h1>
+            </div>
+            <div class="photo__tools">
+                <div class="photo__tools__editar">
+                    <i class="fa-solid fa-pen-to-square gml-font-default"></i>
+                    <a href="#" class="gml-link"> Editar Perfil</a>
+                </div>
+                <div class="photo__tools__escalas">
+                    <i class="fa-solid fa-calendar-days gml-font-default"></i>
+                    <a href="#" class="gml-link">Escalas</a>
+                </div>
+                <div class="photo__tools__events">
+                    <i class="fa-sharp fa-solid fa-place-of-worship gml-font-default"></i>
+                    <a href="#" class="gml-link"> Eventos</a>
+                </div>
+                <div class="photo__tools__plays">
+                    <i class="fa-sharp fa-solid fa-music gml-font-default"></i>
+                    <a href="#" class="gml-link"> Playlists</a>
+                </div>
+                <div class="photo__tools__plays">
+                    <i class="fa-solid fa-link gml-font-default"></i>
+                    <a href="#" class="gml-link"> Links</a>
+                </div>
+            </div>
+        </aside>
+        <div id="sec__ml">
+            <section class="sec__escalas">
+                <h1>Escalas</h1>
+                <div id="display__escalas">
+                    <button onclick="segEscala()">Segunda</button>
+                    <button onclick="terEscala()">Terça</button>
+                    <button onclick="quaEscala()">Quarta</button>
+                    <button onclick="quiEscala()">Quinta</button>
+                    <button onclick="sexEscala()">Sexta</button>
+                    <button onclick="sabEscala()">Sábado</button>
+                    <button onclick="domEscala()">Domingo</button>
+                </div>
+            </section>
+            <section class="sec__escalas">
+                <h1>Repertório</h1>
+                <div id="display__repertorio">
+                    <ul>
+                        <li><a href="#">Música </a> <a href="#">Artista</a><a href="#">Tonalidade</a><a>Versão</a><a href="#">Tipo</a><a href="#">Links</a></li>
+                        <li><a href="#">Música </a> <a href="#">Artista</a><a href="#">Tonalidade</a><a>Versão</a><a href="#">Tipo</a><a href="#">Links</a></li>
+                        <li><a href="#">Música </a> <a href="#">Artista</a><a href="#">Tonalidade</a><a>Versão</a><a href="#">Tipo</a><a href="#">Links</a></li>
+                        <li><a href="#">Música </a> <a href="#">Artista</a><a href="#">Tonalidade</a><a>Versão</a><a href="#">Tipo</a><a href="#">Links</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>    
+        <aside class="counter">
+            <div class="counter__friends">
+                <h1>Eventos</h1>
+                <div id="display__events">
+                    <ul>
+                        <li><a href="#">Evento 1 - 00/00</a></li>
+                        <li><a href="#">Evento 2 - 00/00</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="counter__community">
+                <h1>Playlists</h1>
+                <div id="display__plays">
+                    <ul>
+                        <li><a href="#">Celebração</a></li>
+                        <li><a href="#">Adoração</a></li>
+                        <li><a href="#">Quebra de maldição</a></li>
+                        <li><a href="#">Arena</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="counter__community">
+                <h1>Links</h1>
+                <div id="display__link">
+                    <ul>
+                        <li><a href="#">Cifras</a></li>                         
+                        <li><a href="#">Letras</a></li>
+                        <li><a href="#">Áudios</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </main>
+<script src="js/popus-escalas.js"></script>    
+</body>
+</html>

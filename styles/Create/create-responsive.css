@@ -1,0 +1,39 @@
+@media screen and (min-width:670px){
+    .container{
+        margin-top: 5%;
+    }
+
+    #fields__title{
+        font-size: 20px;  
+        margin-bottom: 20px; 
+    }
+
+    .fields__textboxs {
+        height: 160px;
+    }
+
+    .fields__textboxs > input {
+        height: 45px;
+        width: 400px;
+    }
+
+    #btnCreate{
+        padding: 16px;
+        margin-bottom: 4%;
+        width: 50%;
+    }
+
+    #btnCreate > a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 16px;
+    }
+    
+
+
+    .fields__recovery {
+        margin-bottom: 50px;
+    }
+
+
+}

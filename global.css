@@ -1,0 +1,30 @@
+:root {
+    background-color: #647ed1;
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.gml-font-color{
+    color: #2552e8;
+}
+
+.gml-button-bg {
+    background-color: #2552e8;
+    cursor: pointer;
+}
+
+.gml-font-default{
+    color: rgb(28, 28, 28);
+}
+
+.gml-link{
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+    font-weight: 500;
+}
+
+.gml-font-title {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}

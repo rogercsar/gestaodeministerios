@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="styles/Login/login.css">
+    <link rel="stylesheet" href="styles/Login/login-responsive.css">
+    <title>GML</title>
+</head>
+<body>
+    <div class="container">
+        <div class="fields">
+            <div class="fields__title">
+                <p id="field__title__p">Acesse sua conta do <span class="gml-font-color">GML</span></p>
+            </div>
+        </div>
+
+        <div class="fields__textboxs">
+              <input type="text" name="" id="field__user" placeholder="Nome ou E-mail ">
+              <input type="password" name="" id="field__pass" placeholder="Senha"> 
+        </div>
+
+        <div class="fields__remember">
+            <input type="checkbox" name="" id="field__remember">
+            <label for="field__remember">Lembrar meu acesso</label>
+        </div>
+
+          <div class="fields__buttons">
+                <button id="btnLogin" class="gml-button-bg" onclick="chamaLogin()"><a id="linkPag">Entrar</a></button>
+            </div>
+
+            <div class="fields__recovery">
+                <a href="./forgot-pass.html">Esqueci senha ou e-mail</a>
+            </div>
+
+            <div class="fields__create">
+                <a href="./create-user.html">Não tem conta ? <span class="gml-font-color">Criar agora</span></a>
+            </div>
+         </div>
+    </div>
+
+<script src="./js/login.js"></script>    
+</body>
+</html>

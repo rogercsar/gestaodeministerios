@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="styles/Forgot/forgot-pass.css">
+    <link rel="stylesheet" href="styles/Login/login-responsive.css">
+    <title>Recuperar conta</title>
+</head>
+<body>
+    <div class="container">
+        <div class="fields">
+            <div class="fields__title">
+                <p id="field__title__p">Recuperar sua conta do <span class="gml-font-color">GML</span><br>Enviaremos um código para o número cadastrado</p>
+               
+            </div>
+        </div>
+
+        <div class="fields__textboxs">
+              <input type="text" id="field__input" placeholder="Informe o número cadastrado">
+        </div>
+
+          <div class="fields__buttons">
+                <button id="btnLogin" class="gml-button-bg" onclick="recoveryUser()"><a id="linkPag">Solicitar</a></button>
+            </div>
+
+            <div class="fields__cancel">
+                <a href="./index.html">Cancelar</a>
+            </div>
+
+         </div>
+    </div>
+
+<script src="./js/forgot-pass.js"></script>   
+<script src="https://smtpjs.com/v3/smtp.js"></script> 
+</body>
+</html>
